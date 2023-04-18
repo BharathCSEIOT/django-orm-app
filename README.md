@@ -3,10 +3,6 @@
 ## AIM
 To develop a Django application to store and retrieve data from a database using Object Relational Mapping(ORM).
 
-## Entity Relationship Diagram
-
-Include your ER diagram here
-
 ## DESIGN STEPS
 
 ### STEP 1:
@@ -38,15 +34,12 @@ class Student (models.Model):
 class StudentAdmin(admin.ModelAdmin):
     list_display=('referencenumber','name','age','email')
 ```
+
+## OUTPUT
 ## SERVER OUTPUT:
 ![Screenshot (150)](https://user-images.githubusercontent.com/122793480/232839984-1fe174c1-0302-4deb-ad5c-3ee47644e993.png)
 
-
-
-
-## OUTPUT
-
-
+## CLIENT OUTPUT:
 ![Screenshot (151)](https://user-images.githubusercontent.com/122793480/232840005-39b55ffa-9373-495c-b19b-f488ac285735.png)
 
 
